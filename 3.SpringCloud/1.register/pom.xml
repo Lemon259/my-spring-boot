@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.iocoder.springboot.labs</groupId>
+    <artifactId>labs-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+
+        <!-- Spring Cloud 示例 -->
+        <module>labx-01-spring-cloud-alibaba-nacos-discovery</module>
+        <module>labx-04-spring-cloud-alibaba-sentinel</module>
+        <module>labx-22</module>
+        <module>labx-25</module>
+        <module>labx-27</module>
+    </modules>
+
+</project>
